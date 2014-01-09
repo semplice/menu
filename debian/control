@@ -1,0 +1,16 @@
+Source: semplice-menu
+Section: misc
+Priority: optional
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://github.com/semplice/semplice-menu
+Vcs-Git: https://github.com/semplice/semplice-menu.git
+Vcs-Browser: https://github.com/semplice/semplice-menu
+
+Package: semplice-menu
+Architecture: all
+Depends: ${misc:Depends}
+Conflicts: alan-config-semplice
+Description: Semplice XDG menu schema
+ This package ships the Semplice XDG menu schema.
